@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    color: #fff;                
+}
+        .stopwatch-container {
+            background-color: #000000a1;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 800px;
+        }
+       
+        .display {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Orbitron', 'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #startPauseBtn {
+            background-color: #4CAF50;
+            color: white;
+        }
+        #startPauseBtn:hover {
+            background-color: #45a049;
+        }
+        #resetBtn {
+            background-color: #f44336;
+            color: white;
+        }
+        #resetBtn:hover {
+            background-color: #da190b;
+        }
+        #lapBtn {
+            background-color: #2196F3;
+            color: white;
+        }
+        #lapBtn:hover {
+            background-color: #0b7dda;
+        }
+        .laps {
+            max-height: 200px;
+            overflow-y: auto;
+            margin-top: 20px;
+            text-align: left;
+        }
+        .lap-item {
+            padding: 5px;
+            border-bottom: 1px solid #ffffff;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h4 {
+    font-family:'Press Start 2P', cursive;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #ffffff;
+}
+       
